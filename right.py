@@ -9,3 +9,8 @@ import seaborn as sns
 st.title("Diabetes Analysis")
 df = pd.read_csv("diabetes.csv")
 st.write(df.head())
+
+
+df = pd.read_csv("diabetes.csv")
+st.write(df.tail())
+
