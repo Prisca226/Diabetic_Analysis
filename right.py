@@ -6,7 +6,7 @@ import seaborn as sns
 
 
 #import my csv file
-st.title("Diabetes Analysis")
+st.title("DIABETES_ANALYSIS")
 df = pd.read_csv("diabetes.csv")
 st.markdown("# FIRST FIVE")
 st.write(df.head())
