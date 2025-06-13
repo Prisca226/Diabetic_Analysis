@@ -6,6 +6,6 @@ import seaborn as sns
 
 
 #import my csv file
-st.title("# Diabetes Analysis")
+st.title("Diabetes Analysis")
 df = pd.read_csv("diabetes.csv")
 st.write(df.head())
