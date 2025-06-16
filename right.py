@@ -33,4 +33,29 @@ st.markdown("## UNIVARIENT ANALYSIS")
 st.markdown("### Blood Pressure")
 st.write(df["BloodPressure"].describe())
 
+st.markdown("### Pregnacies")
+st.write(df["Pregnacies"].describe())
+
+st.markdown("### Glucose")
+st.write(df["Glucose"].describe())
+
+st.markdown("### Skin Thickness")
+st.write(df["SkinThickness"].describe())
+
+st.markdown("### Insulin")
+st.write(df["Insulin"].describe())
+
+st.markdown("### BMI")
+st.write(df["BMI"].describe())
+
+st.markdown("### Diabetes Predigree Function")
+st.write(df["DiabetesPredigreeFunction"].describe())
+
+
+
+
+
+
+
+
 
