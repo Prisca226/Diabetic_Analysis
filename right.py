@@ -3,7 +3,8 @@ import streamlit as st
 import matplotlib.pyplot as pt
 import numpy as np
 import seaborn as sns
-import plotly as px
+import plotly_express as px
+
 
 
 #import my csv file
