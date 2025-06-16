@@ -34,7 +34,7 @@ st.markdown("### Blood Pressure")
 st.write(df["BloodPressure"].describe())
 
 st.markdown("### Pregnacies")
-st.write(df["Pregnacies"].describe())
+st.write(df["Pregnancies"].describe())
 
 st.markdown("### Glucose")
 st.write(df["Glucose"].describe())
