@@ -60,6 +60,14 @@ df_count_column = ["BloodPressure", "count"]
 fig = px.bar(df['BloodPressure'], y ='BloodPressure', title=("Blood Pressure Distribution Graph"))
 st.plotly_chart(fig, use_container_width=True)
 
+st.markdown("## BIVARIATE ANALYSIS")
+st.markdown("## Blood Pressure vs Pregnancies Description")
+df2 = pd.DataFrame(df["BloodPressure"], df["Pregnancies"])
+st.write(df2)
+
+fig2 = px.bar(df, x ='Pregnancies', y ='BloodPressure', title=("Blood Pressure vs Pregnancies Distribution"))
+st.plotly_chart(fig2, use_container_width=True)
+
 
 
 
