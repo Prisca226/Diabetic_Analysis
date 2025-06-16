@@ -35,7 +35,7 @@ st.markdown("## UNIVARIENT ANALYSIS")
 st.markdown("### Blood Pressure")
 st.write(df["BloodPressure"].describe())
 
-"""
+
 st.markdown("### Pregnacies")
 st.write(df["Pregnancies"].describe())
 
@@ -53,7 +53,7 @@ st.write(df["BMI"].describe())
 
 st.markdown("### Diabetes Pedigree Function")
 st.write(df["DiabetesPedigreeFunction"].describe())
-"""
+
 
 st.markdown("## Blood Pressure Graph")
 df_count_column = ["BloodPressure", "count"]
