@@ -16,3 +16,18 @@ df = pd.read_csv("diabetes.csv")
 st.markdown("# LAST FIVE")
 st.write(df.tail())
 
+st.markdown("### DATA INFO")
+my = df.info()
+st.write(my)
+
+st.markdown("# DATA DESCRIBE")
+my = df.describe()
+st.write(my)
+
+st.markdown("# DATA SHAPE")
+my = df.shape
+st.write(my)
+
+
+
+
