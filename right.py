@@ -48,8 +48,8 @@ st.write(df["Insulin"].describe())
 st.markdown("### BMI")
 st.write(df["BMI"].describe())
 
-st.markdown("### Diabetes Predigree Function")
-st.write(df["DiabetesPredigreeFunction"].describe())
+st.markdown("### Diabetes Pedigree Function")
+st.write(df["DiabetesPedigreeFunction"].describe())
 
 
 
