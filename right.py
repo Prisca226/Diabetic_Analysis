@@ -28,6 +28,9 @@ st.markdown("# DATA SHAPE")
 my = df.shape
 st.write(my)
 
+st.markdown("## UNIVARIENT ANALYSIS")
 
+st.markdown("### Blood Pressure")
+st.write(df["BloodPressure"].describe())
 
 
