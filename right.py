@@ -3,6 +3,7 @@ import streamlit as st
 import matplotlib.pyplot as pt
 import numpy as np
 import seaborn as sns
+import plotly as px
 
 
 #import my csv file
@@ -50,6 +51,12 @@ st.write(df["BMI"].describe())
 
 st.markdown("### Diabetes Pedigree Function")
 st.write(df["DiabetesPedigreeFunction"].describe())
+
+
+df_count_column = ["BloodPressure", "count"]
+fig = px.bar(df['BloodPressure'], y ='BloodPressure', title=("Blood Pressure Distribution Graph"))
+st.plotly_chart(fig, use_container_width=True)
+
 
 
 
